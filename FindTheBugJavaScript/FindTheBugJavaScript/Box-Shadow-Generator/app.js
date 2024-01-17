@@ -16,7 +16,7 @@ function handleUpdate() {
 
   //updating styles of box
 
-  box.style.boxShadow = `${hOffset}px ${vOffset}px ${blurRadius}px ${spread}px`;
+  box.style.boxShadow = `${hOffset}px ${vOffset}px ${blurRadius}px ${spread}px ${color}`;
   let boxShadowValue = box.style.boxShadow;
 
   //updating css value to be copied
